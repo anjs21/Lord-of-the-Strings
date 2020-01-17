@@ -237,8 +237,6 @@ def file_input():
     return cop_module,spy_module
     
 
-    return cop_module,cops,spy
-
 def copy(a):
     b = []
     while(len(b) < len(a)):

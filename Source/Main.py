@@ -235,9 +235,6 @@ def file_input():
     spy_module = __import__(filename2)
 
     return cop_module,spy_module
-    
-
-    return cop_module,cops,spy
 
 def copy(a):
     b = []

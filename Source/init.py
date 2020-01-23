@@ -38,7 +38,7 @@ def initialise():
         filename_json = open(os.path.join(os.getcwd(),dir_name,filename),'w')
         
         if random_number == 1:
-            sel_cops = selection(74,distance,number_of_cops)
+            sel_cops = selection(74,number_of_cops)
             sel_spy = selection(74,number_of_spy)
 
             position_cops = [75-i for i in sel_cops]

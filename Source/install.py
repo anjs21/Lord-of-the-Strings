@@ -7,7 +7,7 @@ print("RAM: 512 MB")
 print("Storage : 1 GB")
 des = int(input("\nDoes your system meets the requirments: (If yes enter 1 otherwise enter 0): "))
 
-p1 = sub.Popen(['Source.exe'],encoding = 'utf-8',stdin = sub.PIPE,bufsize=0)
+p1 = sub.Popen(['python','Source.py'],encoding = 'utf-8',stdin = sub.PIPE,bufsize=0)
 
 print("\nSTARTING INSTALLATION\n")
 print("NOTE: In the Installation process it is advised to go with recommended settings as the other options will just waste your time")
@@ -52,7 +52,7 @@ else:
     print('KRYPTON IS ALREADY INSTALLED')
     d= input("\nPress enter to continue")
 
-p2 = sub.Popen(['init.exe'],encoding = 'utf-8',stdin = sub.PIPE,bufsize=0)
+p2 = sub.Popen(['python','init.py'],encoding = 'utf-8',stdin = sub.PIPE,bufsize=0)
 
 config = int(input("Number Of Battle areans you want to create: (Recommended 4000): "))
 

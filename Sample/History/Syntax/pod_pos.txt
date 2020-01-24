@@ -1,0 +1,11 @@
+{
+
+   {Turn_number : Zod_Index}
+
+}
+
+//This is commented text
+
+//Key are strings.
+
+//Here the value of the keys are the index of member of Zod's army who has the pod.

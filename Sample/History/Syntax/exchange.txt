@@ -1,0 +1,12 @@
+{
+   
+   {Exchange_Number : [Initial_Index,Final_Index]}
+
+}
+//This is a commented text
+
+//Key in this dictinary is a string.
+
+//"Initial_Index" and "Final_Index" are integers.Here "Initial_Index" is the index of the member of Zod's army 
+//who has the pod and the "Final_Index" is the index of member of Zod's army who finally has the pod after 
+//exchange.

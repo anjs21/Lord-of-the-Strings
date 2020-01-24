@@ -1,0 +1,11 @@
+{
+    
+    {Zod_Index:Turn_Number}
+
+}
+
+//This is commented text
+
+//Zod_index is the index of the member in the Zod's army who is caught.It is a string.
+
+//Turn_Number denotes the turn_number when it was caught

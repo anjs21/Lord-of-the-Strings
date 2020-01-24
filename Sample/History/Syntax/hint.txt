@@ -1,0 +1,13 @@
+{
+
+    {Turn_Number: Hint_List}
+
+}
+//This is commented text
+
+//The key of this dictionary is a string.
+
+//Hint_List-
+//(a) Turn_Number%5==1 : Hint_List is nothing but Zod_Position.
+//(b) Turn_Number%5 != 1 : Hint_List is a five-membered list of integers giving some clue about the move of
+//                         the Zod's army 

@@ -1,0 +1,9 @@
+{
+
+    {Turn_Number: [move_time,info_time]]}
+
+}
+
+//This is commented text
+
+//The keys of dictionary are strings

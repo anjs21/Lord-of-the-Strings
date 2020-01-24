@@ -1,8 +1,8 @@
 # Lord Of the Strings
 
-Installing the application:-
+<b>Installing the application</b>:-
 
-Run Source\install.py
+Run Source/install.py
 
 Using the application:-
 

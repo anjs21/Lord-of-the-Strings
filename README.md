@@ -1,10 +1,10 @@
 # Lord Of the Strings
 
-<b>Installing the application</b>:-
+<h3><b>Installing the application</b></h3>:-
 
 Run Source/install.py
 
-Using the application:-
+<h3><b>Using the application</b></h3>:-
 
 Run Source/Main.py
 

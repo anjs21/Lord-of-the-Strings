@@ -1,0 +1,33 @@
+Turn - A turn is defined as one move of either the Kryptonians(5 members) or Zod's Army(3 members).Also Turn 0 
+is the initialisation step.
+
+Block -A Block is defined as one combined move of Kryptonians and Zod's army. By this I mean 1 Block consists of 
+       one move by Kryptonians and one move by Zod's army.
+
+Turn_Number -It is defined as number of turns finshed before this.
+
+Block_Number - It is defined as the number of blocks finished before this block.
+
+Exchange_Number - It is defined as the Turn_number at which the exchange happened.
+
+Zod_Index - Index Of a particular member of Zod's army.
+
+Jor_Index - Index of a particualar Kryptonian.
+ 
+Zod_Position - This is the list of three members where each member is the labelling of the city in which the
+               respective member of Zod's army is present.
+
+Jor_Position - This is the list of five members where each member is the labelling of the city in which the
+               respective Kryptonian is present.
+
+Move- It is the operation applied on the labelling of the city to move to the other city.
+      1.Right Shift
+      2.Left Shift
+      3.Alt-Swap
+      4.Half-Reverse
+
+Move(i) - It is the move played by ith player.
+
+move_time - Time taken to run the move function.
+
+info_time - Time taken to run the info function.

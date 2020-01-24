@@ -13,8 +13,8 @@ def selection(n,k):
 def initialise():
     iterations = int(input())
     
-    number_of_cops = 74
-    number_of_spy = 3
+    number_of_cops = int(input())
+    number_of_spy = int(input())
 
     distance = 25 
 

@@ -13,9 +13,9 @@ for i in range(m):
     index = int(input())
     function_list.append(index) 
 #BFS
-Visited_Nodes = []
+bool_check = {}
 Distance.append([Initial])
-Visited_Nodes.append(Initial)
+bool_check[tuple(Initial)] = True
 Diameter = 0
 nodes = 1
 while 1:
@@ -24,11 +24,11 @@ while 1:
         for j in function_list:
             node = i[:]
             execution(node,j)
-            if node in Visited_Nodes:
+            if node in bool_check.keys():
                 pass
             else:
-                Visited_Nodes.append(node)
                 foo.append(node)
+                bool_check[tuple(node)]=True
                 nodes+=1
     Diameter+=1
     if foo == []:

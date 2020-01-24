@@ -1,3 +1,10 @@
 # Lord Of the Strings
 
-#Steps 
+Installing the application:-
+
+Run Source\install.py
+
+Using the application:-
+
+Run Source/Main.py
+

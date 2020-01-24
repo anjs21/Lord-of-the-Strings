@@ -55,7 +55,16 @@ else:
 p2 = sub.Popen(['init.exe'],encoding = 'utf-8',stdin = sub.PIPE,bufsize=0)
 
 config = int(input("Number Of Battle areans you want to create: (Recommended 4000): "))
+
+number_of_cops = int(input("\nNumber of cops: "))
+
+number_of_spys = int(input("\nNumber of spys: "))
+
 print(config,file = p2.stdin)
+
+print(number_of_cops,file = p2.stdin)
+
+print(number_of_spys,file = p2.stdin)
 
 print("\nThis may take some time... \n")
 

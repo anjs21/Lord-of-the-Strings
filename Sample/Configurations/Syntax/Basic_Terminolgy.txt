@@ -23,8 +23,8 @@ Jor_Position - This is the list of five members where each member is the labelli
 Move- It is the operation applied on the labelling of the city to move to the other city.
       1.Right Shift
       2.Left Shift
-      3.Alt-Swap
-      4.Half-Reverse
+      4.Alt-Swap
+      5.Half-Reverse
 
 Move(i) - It is the move played by ith player.
 

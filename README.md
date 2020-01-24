@@ -1,4 +1,3 @@
-# Lord-of-the-Strings
-Application
-vyhcfy
-ufyfyfyf
+# Lord Of the Strings
+
+##OMkae 

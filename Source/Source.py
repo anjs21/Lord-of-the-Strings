@@ -24,7 +24,7 @@ while 1:
         for j in function_list:
             node = i[:]
             execution(node,j)
-            if node in bool_check.keys():
+            if tuple(node) in bool_check.keys():
                 pass
             else:
                 foo.append(node)
